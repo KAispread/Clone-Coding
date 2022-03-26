@@ -1,0 +1,51 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  background-color:deepskyblue;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  color: aliceblue;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.nav_logo{
+  width: 30%;
+  margin:0px;
+}
+.nav_logo > h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  line-height: 20px;
+  text-align:start;
+  position: relative;
+  left: 50px
+}
+
+.nav_link{
+  width: 40%;
+  margin: 0px;
+  padding: 0px;
+  padding-right: 200px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.nav_link li{
+  display: block;
+  text-align: center;
+  padding: 0px 15px;
+}
