@@ -49,3 +49,52 @@ li{
   text-align: center;
   padding: 0px 15px;
 }
+
+.midEnd {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+#article {
+  display: grid;
+  grid-template-columns: 800px 400px;
+  grid-template-rows: repeat(2, 300px);
+  grid-template-areas: 
+      "box1 box1"
+      "box2 box3";
+}
+
+.image {
+  grid-area: box1;
+}
+.tabMenu {
+  grid-area: box2;
+}
+
+.quickLink {
+  grid-area: box3;
+}
+
+#tabMenuButton{
+  padding: 0px
+}
+
+#tabMenuButton li{
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: lightgray;
+  color: red;
+  display: block;
+  font-size: 20px;
+  float: left;
+  list-style: circle;
+}
+#tabMenuButton li a{
+  display: block;
+}
+
+#gallery{
+  display: none;
+}
